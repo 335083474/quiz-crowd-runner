@@ -22,6 +22,14 @@ test('server rejects excess calls and never returns provider errors or credentia
  const handle=createAIHandler(config,{now:()=>100000,infer:async()=>({value:{explanation:'ok'}})});for(let i=0;i<6;i++)assert.equal((await handle(req('explain',{question:q}))).status,200);assert.equal((await handle(req('explain',{question:q}))).status,429);
  const failing=createAIHandler(config,{infer:async()=>{throw Error('provider contains synthetic-key');}});const r=await failing(req('explain',{question:q}));assert.equal(r.status,502);assert(!(await r.text()).includes('synthetic-key'));
 });
+
+test('explanation requests ask for plain language and a concrete everyday example, carrying selected mistakes and every correct choice',async()=>{
+ let sent;const handle=createAIHandler(config,{infer:async input=>{sent=input;return {value:{explanation:'人话解释：先理解意思。\n\n生活例子：拿买菜来比。\n\n记住一句话：先想清楚再选。'}};}});
+ const multi={prompt:'Choose two',options:['a','b','c','d'],answer:[0,2]};const response=await handle(req('explain',{question:multi,selected:[0,3]}));assert.equal(response.status,200);
+ assert.match(sent.system,/complete beginner/);assert.match(sent.system,/ONE concrete, familiar example/);assert.match(sent.system,/人话解释/);assert.match(sent.system,/生活例子/);assert.match(sent.system,/记住一句话/);assert.match(sent.system,/source-year context/);assert.match(sent.system,/untrusted study material/);
+ const input=JSON.parse(sent.prompt);assert.equal(input.answerKey,'A. a；C. c');assert.equal(input.selectedText,'A. a；D. d');assert.deepEqual(input.selected,[0,3]);
+ await handle(req('explain',{question:q,locale:'en',selected:99}));assert.match(sent.system,/in English/);assert.equal(JSON.parse(sent.prompt).selected,null);
+});
 test('MiniMax transport uses the configured official region, handles SSE fragmentation and strips thinking',async()=>{
  let sent;const provider=createMiniMaxProvider(config,{fetchModel:async(url,options)=>{sent={url,options};const chunks=[{choices:[{delta:{content:'<think>private</think>{"expl'}}]},{choices:[{delta:{content:'anation":"four"}'},finish_reason:'stop'}],usage:{total_tokens:20}}];const text=chunks.map(p=>'data: '+JSON.stringify(p)+'\n\n').join('')+'data: [DONE]\n\n';return new Response(new ReadableStream({start(c){const bytes=new TextEncoder().encode(text);for(let i=0;i<bytes.length;i+=7)c.enqueue(bytes.slice(i,i+7));c.close();}}),{headers:{'Content-Type':'text/event-stream'}});}});
  const result=await provider({system:'Explain',prompt:'q'});assert.equal(result.value.explanation,'four');assert.equal(sent.url,'https://api.minimaxi.com/v1/chat/completions');assert.equal(JSON.parse(sent.options.body).thinking.type,'disabled');assert.equal(result.usage.total_tokens,20);
