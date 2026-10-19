@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { Game, GATE_DISTANCE, MARCH_DISTANCE, ROUTE_DISTANCE } from '../simulation/game.mjs';
+import {t} from '../i18n.mjs';
+import { Game, GATE_DISTANCE, MARCH_DISTANCE } from '../simulation/game.mjs';
 
 const blue=0x039fe8, red=0xf75565;
 export class World {
@@ -194,7 +195,7 @@ export class World {
     this.sea.position.z=-110-distance;
     const z=3-distance;
     const final=g.final;
-    const segment=final?ROUTE_DISTANCE/MARCH_DISTANCE-1:g.index;
+    const segment=final?g.questions.length:g.index;
     const enemyZ=3-(segment+1)*MARCH_DISTANCE-g.jogDistance-2.5;
     const towerZ=3-(segment+1)*MARCH_DISTANCE-g.jogDistance-6;
     if(!g.lastSegment){this.lastCleared=-1;this.wreck.visible=false;}
@@ -206,7 +207,7 @@ export class World {
     if(g.phase!==this.lastPhase){if(g.outcome==='victory'){this.explosionAt=this.time;this.explosionZ=this.castle.position.z;}this.lastPhase=g.phase;}
     this.tower.visible=!final;this.tower.position.y=0;
     this.tower.position.z=towerZ;
-    this.castle.position.z=3-ROUTE_DISTANCE-g.jogDistance-7;
+    this.castle.position.z=3-g.routeDistance-g.jogDistance-7;
     const enemies=final?55:g.question.enemies+(g.summary?.enemyBonus??0);
     const combatProgress=g.phase==='combat'?Math.min(g.elapsed/3.2,1):g.outcome==='victory'?1:0;
     const remaining=Math.max(0,Math.ceil(enemies*(1-combatProgress)));
@@ -222,7 +223,7 @@ export class World {
     this.gateScan.position.y=.2+(this.time*.55)%3.1;(this.gateScan.material as THREE.MeshBasicMaterial).opacity=.3*gateFade;
     const reward=g.question.reward,title=failed?'+0':reward.type==='shield'?`◈ +${reward.value}`:reward.type==='multiply'?`×${reward.value}`:`+${reward.value}`;
     const subtitle=failed?'未激活':g.gateCrossed?'领取成功':reward.type==='shield'?'穿过获得护盾':reward.type==='multiply'?'穿过兵力翻倍':'穿过增加兵力';
-    this.setGateLabel(title,subtitle,`${g.index}:${title}:${subtitle}`);this.gateLabel.material.opacity=gateFade;
+    this.setGateLabel(title,t(subtitle),`${g.index}:${title}:${t(subtitle)}`);this.gateLabel.material.opacity=gateFade;
     const burst=rewardAge>=0&&rewardAge<1.1;this.rewardSparkles.count=burst?32:0;
     if(burst){for(let i=0;i<32;i++){const angle=i*2.399;this.dummy.position.set(Math.sin(angle)*(.5+rewardAge*4.5),.2+(i%7)*.3+rewardAge*1.8-rewardAge*rewardAge,this.rewardWorldZ+Math.cos(angle)*rewardAge*2.4);this.dummy.rotation.set(0,0,0);this.dummy.scale.setScalar(Math.max(0,1-rewardAge/1.1));this.dummy.updateMatrix();this.rewardSparkles.setMatrixAt(i,this.dummy.matrix);}this.rewardSparkles.instanceMatrix.needsUpdate=true;}
     this.rewardRing.visible=rewardAge>=0&&rewardAge<.85;this.rewardRing.position.set(0,.035,this.rewardWorldZ);this.rewardRing.scale.setScalar(1+Math.min(rewardAge,1)*5);(this.rewardRing.material as THREE.MeshBasicMaterial).opacity=Math.max(0,1-rewardAge/.85)*.65;
@@ -247,7 +248,7 @@ export class World {
       armyLabel.hidden=g.phase==='result';
       armyLabel.classList.toggle('reward-pop',rewardAge<1.2);
       const delta=armyLabel.querySelector<HTMLElement>('.army-delta')!;delta.hidden=!(rewardAge>=0&&rewardAge<1.6&&g.gateReward);
-      if(g.gateReward&&!delta.hidden)delta.textContent=g.gateReward.type==='shield'?`护盾 +${g.gateReward.value}`:`${g.gateReward.before} → ${g.gateReward.after}`;
+      if(g.gateReward&&!delta.hidden)delta.textContent=g.gateReward.type==='shield'?t('护盾 +{n}',{n:g.gateReward.value}):`${g.gateReward.before} → ${g.gateReward.after}`;
     }
     const label=document.querySelector<HTMLElement>('#enemy-tag');
     if(label){

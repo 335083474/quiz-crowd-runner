@@ -1,0 +1,7 @@
+// Explicit paid provider smoke test using synthetic quiz content, never user uploads.
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const base=process.env.QUIZ_AI_TEST_URL||'http://127.0.0.1:5199';
+const report={provider:'minimax',synthetic:true,pass:false,calls:[]};
+async function call(action,body){const start=Date.now(),r=await fetch(base+'/api/'+action,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'MiniMax-M3',locale:'zh-CN',...body}),signal:AbortSignal.timeout(100000)});const value=await r.json();report.calls.push({action,status:r.status,elapsedMs:Date.now()-start,value});assert.equal(r.status,200);return value;}
+try{const parsed=await call('parse',{text:'题目一：7乘以8等于多少？A为54，B为56，C为64，D为72。标准答案B，解析7×8=56。'});assert.equal(parsed.questions.length,1);assert.equal(parsed.questions[0].answer,1);assert.equal(parsed.questions[0].options[1],'56');const explained=await call('explain',{question:parsed.questions[0],selected:0});assert.match(explained.explanation,/56/);report.pass=true;}catch(error){report.error=error.message;process.exitCode=1;}finally{await fs.mkdir('artifacts',{recursive:true});await fs.writeFile('artifacts/minimax-live-smoke.json',JSON.stringify(report,null,2));console.log(JSON.stringify({pass:report.pass,calls:report.calls.map(({action,status,elapsedMs})=>({action,status,elapsedMs})),error:report.error}));}

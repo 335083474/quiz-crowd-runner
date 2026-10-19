@@ -21,10 +21,12 @@ export class Game {
   summary=null;
   /** @type {{index:number,worldEnd:number,ok:boolean,gained:number,blocked:number,lost:number,enemyBonus:number}|null} */
   lastSegment=null;
-  constructor(){ this.reset(); }
+  constructor(bank=questions){ this.questions=bank;this.reset(); }
+  setQuestions(bank){if(!['ready','result'].includes(this.phase))return false;if(!Array.isArray(bank)||bank.length<1||bank.length>6)throw Error('Invalid round');this.questions=bank;this.reset();return true;}
+  get routeDistance(){return MARCH_DISTANCE*(this.questions.length+1);}
   reset(){ this.phase='ready';this.index=0;this.troops=40;this.shield=0;this.correct=0;this.history=[];this.selected=null;this.elapsed=0;this.paused=false;this.final=false;this.outcome=null;this.combat=null;this.summary=null;this.lastSegment=null;this.distance=0;this.marchStart=0;this.jogDistance=0;this.speed=0;this.marchInitialSpeed=0;this.gateCrossed=false;this.rewardSequence=0;this.gateReward=null; }
   get worldDistance(){ return this.distance+this.jogDistance; }
-  get question(){ return questions[this.index]; }
+  get question(){ return this.questions[this.index]; }
   start(){ if(this.phase==='ready')this.phase='question'; }
   answer(option){
     if(this.phase!=='question'||this.paused||!Number.isInteger(option)||option<0||option>3)return false;
@@ -51,7 +53,7 @@ export class Game {
   finishSegment(blocked,lost){
     this.summary.blocked=blocked;this.summary.lost=lost;
     this.lastSegment={index:this.index,worldEnd:this.worldDistance,...this.summary};
-    if(this.index===questions.length-1){this.final=true;this.startMarch();}
+    if(this.index===this.questions.length-1){this.final=true;this.startMarch();}
     else {this.index++;this.phase='question';this.elapsed=0;this.selected=null;this.summary=null;this.gateCrossed=false;this.gateReward=null;}
   }
   beginCombat(){
