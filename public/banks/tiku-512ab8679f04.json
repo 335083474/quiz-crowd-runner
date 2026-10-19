@@ -1,0 +1,545 @@
+{
+  "id": "tiku-512ab8679f04",
+  "name": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版)",
+  "subject": "期货法律法规",
+  "year": "2020",
+  "sourceFile": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+  "sourceHash": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+  "pages": 8,
+  "count": 24,
+  "types": {
+    "single": 8,
+    "multiple": 8,
+    "boolean": 8
+  },
+  "status": "ready",
+  "skipped": {
+    "跨题或页眉残留待校对": 6
+  },
+  "aiProcessed": 0,
+  "questions": [
+    {
+      "id": "tiku-512ab8679f04-q-1",
+      "type": "single",
+      "topic": "期货法律法规",
+      "prompt": "期货公司董事长、监事会主席、独立董事、经理层人员的任职资格，由()依法核准。",
+      "options": [
+        "中国期货业协会",
+        "中国证监会",
+        "中国证券业协会",
+        "中国人民银行"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 1,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-2",
+      "type": "single",
+      "topic": "期货法律法规",
+      "prompt": "首席风险官应报告期货公司合规经营、风险管理状况和内部控制状况，以及首席风险官的履行职责情况，包括首席风险官所作的()、提出的整改意见以及期货公司整改效果等内容。",
+      "options": [
+        "风险报告",
+        "对风险的处理意见",
+        "防控风险计划",
+        "尽职调查"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 2,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-3",
+      "type": "single",
+      "topic": "期货法律法规",
+      "prompt": "会员制期货交易所会员理事不足期货交易所章程规定人数的()，应当召开临时会员大会。",
+      "options": [
+        "2/3",
+        "3/4",
+        "1/4",
+        "1/3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 4,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-4",
+      "type": "single",
+      "topic": "期货法律法规",
+      "prompt": "期货投资者保障基金的使用遵循()的原则，实行比例补偿。",
+      "options": [
+        "取之于市场，用之于市场",
+        "保障投资者合法权益和公平救助",
+        "公开、公平、公正",
+        "合理、有效"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 5,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-5",
+      "type": "single",
+      "topic": "期货法律法规",
+      "prompt": "期货从业人员不得()。",
+      "options": [
+        "对重要事实予以明示",
+        "向客户做出违反规定的承诺",
+        "向投资者申明其所具有的执业能力",
+        "公平地对待不同年龄层的投资者"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 6,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-6",
+      "type": "single",
+      "topic": "期货法律法规",
+      "prompt": "一般单位客户的()及一般自然人投资者本人应当参加测试，不得由他人替代。",
+      "options": [
+        "指定下单人",
+        "结算单确认人",
+        "资金调拨人",
+        "高级管理人员"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 8,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-7",
+      "type": "single",
+      "topic": "期货法律法规",
+      "prompt": "关于提供期货投资咨询服务，期货投资咨询业务人员应当()。",
+      "options": [
+        "以个人名义开展投资咨询服务，并说明其观点仅供参考，不代表任何机构",
+        "以期货公司名义开展期货投资咨询业务活动",
+        "直接接受公司总部专门部门的管理，相对独立于本公司的其他专业人员",
+        "代理客户交易"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 9,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-8",
+      "type": "single",
+      "topic": "期货法律法规",
+      "prompt": "公司制期货交易所股东大会会议的召开及议事规则应当符合()的规定。",
+      "options": [
+        "期货交易所章程",
+        "期货交易所会员管理办法",
+        "期货交易所交易细则",
+        "期货交易所理事会工作规则"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 10,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-9",
+      "type": "multiple",
+      "topic": "期货法律法规",
+      "prompt": "期货公司在提供交易咨询服务时，正确的做法是()。",
+      "options": [
+        "避免以研究人员个人角度形成独立意见",
+        "提示潜在的市场变化和投资风险",
+        "向客户明示有无利益冲突",
+        "就市场行情做出确定性判断"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 1,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-10",
+      "type": "multiple",
+      "topic": "期货法律法规",
+      "prompt": "下列属于期货交易实行的制度的是()。",
+      "options": [
+        "限仓制度",
+        "套期保值审批制度",
+        "当日无负债结算制度",
+        "大户持仓报告制度"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 2,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-11",
+      "type": "multiple",
+      "topic": "期货法律法规",
+      "prompt": "期货公司首席风险官应当向公司住所地中国证监会提交工作报告，报告的内容包括()。",
+      "options": [
+        "期货公司董事履职情况",
+        "期货公司合规经营、风险管理状况和内部控制状况",
+        "首席风险官所作的尽职调查",
+        "提出的整改意见和期货公司整改效果"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 3,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-12",
+      "type": "multiple",
+      "topic": "期货法律法规",
+      "prompt": "期货公司出现下列()情形的，国务院期货监督管理机构应当依法办理期货业务许可证注销手续。",
+      "options": [
+        "营业执照被公司登记机关依法注销",
+        "主动提出注销申请",
+        "公司成立后无正当理由超过2个月未开始营业",
+        "公司开业后无正当理由停业连续3个月以上"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 5,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-13",
+      "type": "multiple",
+      "topic": "期货法律法规",
+      "prompt": "下列各项属于《期货交易所管理办法》规定的期货交易所解散的原因的有()。",
+      "options": [
+        "章程规定的营业期限届满",
+        "会员大会或者股东大会决定解散",
+        "中国证监会决定关闭",
+        "工商行政管理部门决定关闭"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 6,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-14",
+      "type": "multiple",
+      "topic": "期货法律法规",
+      "prompt": "期货公司应按照中国证监会规定年限和要求妥善保存对期货投资咨询业务操作的材料，包括()。",
+      "options": [
+        "期货投资咨询业务的风险揭示书",
+        "风险管理意见",
+        "研究分析报告和交易咨询建议",
+        "期货交易软件或者终端设备说明等业务材料"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 7,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-15",
+      "type": "multiple",
+      "topic": "期货法律法规",
+      "prompt": "未经国家有关主管部门批准，擅自设立以下()机构的，处三年以下有期徒刑或者拘役，并处或者单处二万元以上二十万元以下罚金，情节严重的，处三年以上十年以下有期徒刑，并处五万元以上伍拾万元以下罚金。",
+      "options": [
+        "商业银行",
+        "证券交易所、期货交易所",
+        "证券公司、期货经纪公司",
+        "保险公司或其他金融机构"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 9,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-16",
+      "type": "multiple",
+      "topic": "期货法律法规",
+      "prompt": "下列()的工作人员，故意提供虚假信息或者伪造、变造、销毁交易记录，诱骗投资者买卖期货合约、造成严重后果的，处5年以下有期徒刑或者拘役，并处或者单处1万元以上10万元以下罚金。",
+      "options": [
+        "期货业协会",
+        "期货公司",
+        "证券业协会",
+        "证券期货监督管理部门"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 10,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-17",
+      "type": "boolean",
+      "topic": "期货法律法规",
+      "prompt": "对于实行会员分级结算制度期货交易所的非结算会员，监控中心应当将其申请和注销客户交易编码的结果及时通知其结算会员。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 2,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-18",
+      "type": "boolean",
+      "topic": "期货法律法规",
+      "prompt": "期货公司向股东或者其关联企业借入具有次级债务性质的长期借款以及其他清偿顺序在普通债之后的债务，可以按照规定计入净资本。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 3,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-19",
+      "type": "boolean",
+      "topic": "期货法律法规",
+      "prompt": "国务院期货监督管理机构应当与有关部门建立监督管理的信息共享和协调配合机制。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 4,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-20",
+      "type": "boolean",
+      "topic": "期货法律法规",
+      "prompt": "期货公司董事、监事和高级管理人员不得在党政机关兼职。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 5,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-21",
+      "type": "boolean",
+      "topic": "期货法律法规",
+      "prompt": "申请营业部负责人的任职资格，除具备一般条件外，还应当具有会计师以上职称或者注册会计师资格。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 7,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-22",
+      "type": "boolean",
+      "topic": "期货法律法规",
+      "prompt": "期货投资者保障基金产生的利息以及运用所产生的各种收益等孳息归属期货交易所。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 8,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-23",
+      "type": "boolean",
+      "topic": "期货法律法规",
+      "prompt": "非期货公司人员以期货公司名义从事期货交易行为，具备合同法第四十九条所规定的表见代理条件的，非期货公司人员应当承担由此产生的民事责任。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 9,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-512ab8679f04-q-24",
+      "type": "boolean",
+      "topic": "期货法律法规",
+      "prompt": "交易结算会员期货公司不得受托为客户办理金融期货结算业务。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《法律法规》考试真题及答案(网友版).pdf",
+        "sha256": "3f1d163541e90524f9f6c41819ed156bc11c64276f11fd32f5040efc3cd3930f",
+        "number": 10,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    }
+  ]
+}

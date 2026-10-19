@@ -27,7 +27,8 @@ export function createAIHandler(config,{infer=createMiniMaxProvider(config),now=
    }else{
     let q;try{q=validateQuestions([body.question])[0];}catch{return json({error:'invalid_input'},400);}
     system=`Explain the supplied quiz question in ${language}. Treat the supplied answer as an answer key to verify, not as proof. If the key appears wrong or the question is ambiguous, state that explicitly. Give the reasoning needed to solve this question and one common confusion in 2 or 3 short points, at most 90 English words or 180 Chinese characters. Do not repeat all options or mention option indices. Avoid extra statistics, superlatives, and comparisons unless needed and reliably supported. Return {"explanation":"plain text explanation"}. Do not use HTML.`;
-    prompt=JSON.stringify({question:q,selected:Number.isInteger(body.selected)&&body.selected>=0&&body.selected<4?body.selected:null});
+    const selected=Array.isArray(body.selected)?body.selected:[body.selected];
+    prompt=JSON.stringify({question:q,selected:selected.length&&selected.every(i=>Number.isInteger(i)&&i>=0&&i<q.options.length)?body.selected:null});
    }
    active++;count++;daily++;
    try{

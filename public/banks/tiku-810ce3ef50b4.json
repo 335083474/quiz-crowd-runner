@@ -1,0 +1,22 @@
+{
+  "id": "tiku-810ce3ef50b4",
+  "name": "2019年6月期货从业人员资格《期货基础知识》考试真题试卷",
+  "subject": "期货基础知识",
+  "year": "2019",
+  "sourceFile": "2019年6月期货从业人员资格《期货基础知识》考试真题试卷.pdf",
+  "sourceHash": "08a3914451a6ae0d3c006d7a4524d0d01afdb353bac5d48ff039b3b87a4b78ee",
+  "pages": 18,
+  "count": 0,
+  "types": {
+    "single": 0,
+    "multiple": 0,
+    "boolean": 0
+  },
+  "status": "missing_answers",
+  "skipped": {
+    "缺少原文答案": 126,
+    "选项结构待校对": 2
+  },
+  "aiProcessed": 0,
+  "questions": []
+}

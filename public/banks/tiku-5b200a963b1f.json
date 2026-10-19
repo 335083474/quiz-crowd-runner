@@ -1,0 +1,22 @@
+{
+  "id": "tiku-5b200a963b1f",
+  "name": "2020年9月12日期货从业资格《期货投资分析》部分考试真题(网友版)",
+  "subject": "期货投资分析",
+  "year": "2020",
+  "sourceFile": "2020年9月12日期货从业资格《期货投资分析》部分考试真题(网友版).pdf",
+  "sourceHash": "a97099997f2d029f9199e17d40b4159f2af2fcf4dc5f07facc222f4d8f31733c",
+  "pages": 2,
+  "count": 0,
+  "types": {
+    "single": 0,
+    "multiple": 0,
+    "boolean": 0
+  },
+  "status": "missing_answers",
+  "skipped": {
+    "缺少原文答案": 10,
+    "选项结构待校对": 1
+  },
+  "aiProcessed": 0,
+  "questions": []
+}

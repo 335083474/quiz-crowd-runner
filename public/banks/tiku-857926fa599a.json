@@ -1,0 +1,554 @@
+{
+  "id": "tiku-857926fa599a",
+  "name": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版)",
+  "subject": "期货投资分析",
+  "year": "2020",
+  "sourceFile": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+  "sourceHash": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+  "pages": 8,
+  "count": 25,
+  "types": {
+    "single": 9,
+    "multiple": 7,
+    "boolean": 9
+  },
+  "status": "ready",
+  "skipped": {
+    "跨题或页眉残留待校对": 4
+  },
+  "aiProcessed": 0,
+  "questions": [
+    {
+      "id": "tiku-857926fa599a-q-1",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "()是衡量一个国家或地区经济发展水平和富裕程度的重要综合指标。",
+      "options": [
+        "GDP",
+        "人均GDP",
+        "居民可支配收入",
+        "消费价格指数"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 1,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-2",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "金融衍生品业务开展过程中由于内部控制流程不当而造成的损失属于()。",
+      "options": [
+        "操作风险",
+        "系统风险",
+        "非系统风险",
+        "模型风险"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 2,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-3",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "国内生产总值(GDP)的核算有生产法、收入法和支出法。其中，生产法的GDP核算公式为()。",
+      "options": [
+        "总收入-中间投入",
+        "总产出-中间投入",
+        "总收入-总支出",
+        "总产出-总收入"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 3,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-4",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "上海银行间同业拆借利率是从()开始运行的。",
+      "options": [
+        "2008年1月1日",
+        "2007年1月4日",
+        "2007年1月1日",
+        "2010年12月5日"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 4,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-5",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "()企业是天然的本币多头套期保值者。",
+      "options": [
+        "进口",
+        "出口",
+        "本国",
+        "外国"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 5,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-6",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "根据市场的状况做出实时的决策，判断是否交易、交易的数量、交易的价格等的算法交易属于()。",
+      "options": [
+        "主动型算法交易",
+        "被动型算法交易",
+        "混合型算法交易",
+        "综合型算法交易"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 6,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-7",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "反映全球对矿产、粮食、煤炭、水泥等初级商品的需求，研究航运企业未来业绩和投资价值的重要指标是()。",
+      "options": [
+        "商品价格指数",
+        "美元指数",
+        "BDI",
+        "GDP"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 8,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-8",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "量化数据库的搭建步骤不包括()。",
+      "options": [
+        "逻辑推理",
+        "数据库架构设计",
+        "算法函数的集成",
+        "收集数据"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 9,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-9",
+      "type": "single",
+      "topic": "期货投资分析",
+      "prompt": "通常，利率高的货币远期();利率低的货币远期()。",
+      "options": [
+        "贴水升水",
+        "升水升水",
+        "贴水贴水",
+        "升水贴水"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 10,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-10",
+      "type": "multiple",
+      "topic": "期货投资分析",
+      "prompt": "多元线性回归模型的基本假定有()。",
+      "options": [
+        "零均值假定",
+        "随机扰动项与解释变量互不相关",
+        "异方差假定",
+        "无多重共线性假定"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 1,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-11",
+      "type": "multiple",
+      "topic": "期货投资分析",
+      "prompt": "互换的标的资产可以来源于()。",
+      "options": [
+        "外汇市场",
+        "股票市场",
+        "商品市场",
+        "债券市场"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 2,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-12",
+      "type": "multiple",
+      "topic": "期货投资分析",
+      "prompt": "投资组合的总体收益可以分为()。",
+      "options": [
+        "市场系统性风险相匹配的市场收益",
+        "投资组合管理者个人操作水平和技巧有关的高额收益",
+        "超越市场收益部分的超额收益",
+        "市场非系统性风险相匹配的市场收益"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 3,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-13",
+      "type": "multiple",
+      "topic": "期货投资分析",
+      "prompt": "以下反映经济情况转好的情形有()。",
+      "options": [
+        "CPI连续下降",
+        "PMI®连续上升",
+        "失业率连续上升",
+        "非农就业数据连续上升"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 5,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-14",
+      "type": "multiple",
+      "topic": "期货投资分析",
+      "prompt": "在险价值风险度量中，选择较大的α%意味着()。",
+      "options": [
+        "较高的风险厌恶程度",
+        "较低的风险厌恶程度",
+        "希望能够得到把握较小的预测结果",
+        "希望能够得到把握较大的预测结果"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 6,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-15",
+      "type": "multiple",
+      "topic": "期货投资分析",
+      "prompt": "按照点价权利的归属划分，基差交易可分为()。",
+      "options": [
+        "买方点价",
+        "基差买方",
+        "卖方点价",
+        "基差卖方"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 7,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-16",
+      "type": "multiple",
+      "topic": "期货投资分析",
+      "prompt": "境外投资企业面临的风险主要包括()。",
+      "options": [
+        "汇率风险",
+        "投资项目的不确定性",
+        "流动性风险",
+        "购买力风险"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 10,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-17",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "风险外包模式是企业客户将套期保值打包给期货风险管理公司，风险管理公司进行套期保值操作，实行风险共担，利用共享的业务模式。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 1,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-18",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "夏普比率越大，说明投资机会所获得的超额风险回报越低。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 2,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-19",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "一般的，量化CTA策略的收益波动性比主观CTA策略的收益波动性大。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 3,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-20",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "当VIX指数达到相对低点时，表示投资者对短期市场充满恐惧，市场通常接近或已在底部。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 4,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-21",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "拉格朗日乘数检验可以用来检验异方差。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 5,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-22",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "情景分析是在多种风险因子同时发生特定变化的假设下，对正常情况下金融机构所承受的市场风险进行分析的。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 6,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-23",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "利用期货市场，企业可以有效规避原材料库存中的风险，甚至还可以利用期货市场的仓单质押业务盘活库存。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 8,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-24",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "收益增强类结构化产品能够提供高于市场同期的利率，因此其优点是收益高风险小。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 9,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-857926fa599a-q-25",
+      "type": "boolean",
+      "topic": "期货投资分析",
+      "prompt": "被动型算法交易除了努力减少滑价之外，还把关注的重点落在了价格趋势的预测上。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《投资分析》考试真题及答案(网友版).pdf",
+        "sha256": "95fb5ad15a8601413282d320c1fb336d08e2e53d9833e3a1ed57641ee0eeb263",
+        "number": 10,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    }
+  ]
+}

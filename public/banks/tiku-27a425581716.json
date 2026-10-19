@@ -1,0 +1,385 @@
+{
+  "id": "tiku-27a425581716",
+  "name": "2020年7月期货从业资格考试《基础知识》部分真题及答案",
+  "subject": "期货基础知识",
+  "year": "2020",
+  "sourceFile": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+  "sourceHash": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+  "pages": 7,
+  "count": 16,
+  "types": {
+    "single": 8,
+    "multiple": 8,
+    "boolean": 0
+  },
+  "status": "ready",
+  "skipped": {},
+  "aiProcessed": 0,
+  "questions": [
+    {
+      "id": "tiku-27a425581716-q-1",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "在正向市场中，期货价格与现货价格的差额与()有关。",
+      "options": [
+        "持仓费",
+        "预期利润",
+        "生产成本",
+        "报价方式"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 1,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-2",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "某行结算后，四位客户的逐笔对冲交易结算中，“平仓盈亏”，“浮动盈亏”，“客户权益”、“保证金占用”数据分别如下，需要追加保证金的客户是()。",
+      "options": [
+        "甲客户：161700、7380、1519670、1450515",
+        "丁客户：17000、580、319675、300515",
+        "乙客户：1700、7560、2319675、2300515",
+        "丙客户：61700、8180、1519670、1519690"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 2,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-3",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "我国会员制交易所会员应履行的主要义务不包括()",
+      "options": [
+        "保证期货市场交易的流动性",
+        "按规定缴纳各种费用",
+        "按受期货交易所业务监管",
+        "执行会员大会、理事会的决议"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 3,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-4",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "外汇掉期交易中，如果发起方为近端卖出。远端买入，则远端掉期全价等于做市商报价的()",
+      "options": [
+        "即期汇率买价+远端掉期点卖价",
+        "即期汇率卖价+近端掉期点卖价",
+        "即期汇率买价+近端掉期点买价",
+        "即期汇率卖价+远端掉期点买价"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 4,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-5",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "在我国，某交易者4月26日在正向市场买入10手7月豆油期货合约的同时卖出10手9月豆油期货合约，建仓时的价差为120元/吨，该交易者将上述合约平仓后获得净盈利10000元(豆油期货合约规模为每手10吨，不计手续费等费用)，则该交易者平仓时的价差为()元/吨。(建仓时价差为价格较高的合约减价格较低的合约)",
+      "options": [
+        "40",
+        "-50",
+        "20",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 6,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-6",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "以下不影响沪深300股指期货理论价格的是()。",
+      "options": [
+        "成分股股息率",
+        "期货合约剩余期限",
+        "沪深300指数的历史波动率",
+        "沪深300指数现货价格"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 7,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-7",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "()标志着改革开放以来我国期货市场的进步。",
+      "options": [
+        "上海金属交易所成立",
+        "第一家期货经纪公司成立",
+        "大连商品交易所成立",
+        "郑州粮食批发市场成立并引入期货交易机制"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 8,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-8",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "若沪深300指数报价为3000.00点，IF1712的报价为3040.00点，某交易者认为相对于指数现货价格，IF1712价格偏低，因而在卖空沪深300指数基金的价格时，买入IF1712，以期一段时间后对冲平仓盈利。这种行为是()。",
+      "options": [
+        "跨期套利",
+        "正向套利",
+        "反向套利",
+        "买入套期保值"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 9,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-9",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "下列关于国债期货基差交易策略的描述.正福的是().",
+      "options": [
+        "基差空头策略是指买入国债现货，同时卖出国债期货",
+        "基差空头策略是指卖出国债现货，同时买入国债期货",
+        "基差多头策略是指买入国债现货，同时卖出国债期货",
+        "基差多头策略是指卖出国债现货，同时买入国债期货"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 10,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-10",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "下列对点价交易的品述，正确的有()",
+      "options": [
+        "点价交易双方并不需要参与期货交易",
+        "点价交易一般在期货交易所进行",
+        "点价交易以某月份期货价格为对计价基础",
+        "点价交易本质上是一种为现货信息定价的方式"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 11,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-11",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "在不考虑交易费用的情况下，到期时行权对看涨期权多头有利的情形有().",
+      "options": [
+        "标的物价格在执行价格以下",
+        "标的物价格在执行价格以上",
+        "标的物价格在执行价格与损益平衡点之间",
+        "标的物价格在损益平衡点以上"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 12,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-12",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "以下选项属于期货交易所职能的有()。",
+      "options": [
+        "制定并实施期物市场交易制度与交易规则",
+        "设计合约、安排合约上市",
+        "组织和监督期货交易",
+        "发布市场信息"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 14,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-13",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "投资者以2330点开仓买入沪深300股指期货合约5手，后以2350点全部平仓。若不计交易费用，其交易结果为()。",
+      "options": [
+        "盈利6000元/手",
+        "盈利30000元",
+        "亏损6000元/手",
+        "亏损30000元"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 15,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-14",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "期货交易涉及商品实物交割的，交易所应当发布该合约的()等信息。",
+      "options": [
+        "可用库容情况",
+        "标准仓单数量",
+        "现货市场行情",
+        "预期实物交割数量"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 16,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-15",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "以下关于趋势性和轨道线，说法正确的有()。",
+      "options": [
+        "趋势线被有效突破后，通常表明市场价格下一步的走势将会反转",
+        "轨道线被有效实破后，通常表明市场价格原有趋劳将减弱",
+        "当市场价格不能触及轨道线，显示原有趋势加速的可能增加",
+        "轨道线的作用是限制市场价格的变动范围"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 17,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-27a425581716-q-16",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "以下关于国内期货市场价格描述正确的是().",
+      "options": [
+        "最新价是某一期货合约在当日交易期间的即时成交价格",
+        "集合竞价未产生成交价格的，以集合竞价后的第一笔成交价为开盘价",
+        "收盘价是某一期货合约当日交易的最后一笔成交价格",
+        "当日结算价的计算无需考虑成交量"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年7月期货从业资格考试《基础知识》部分真题及答案.pdf",
+        "sha256": "b3e04d99c27b5f61fc38bd38a8cb89eab97eff99e0166e092bece17b503a698b",
+        "number": 19,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    }
+  ]
+}

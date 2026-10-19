@@ -11,7 +11,7 @@ export class Game {
   gateCrossed=false;rewardSequence=0;
   /** @type {{index:number,type:string,value:number,before:number,after:number,shieldBefore:number,shieldAfter:number,gained:number,worldZ:number}|null} */
   gateReward=null;
-  /** @type {Array<{id:string,selected:number,correct:boolean}>} */
+  /** @type {Array<{id:string,selected:number|number[],correct:boolean}>} */
   history=[];
   /** @type {string|null} */
   outcome=null;
@@ -21,6 +21,7 @@ export class Game {
   summary=null;
   /** @type {{index:number,worldEnd:number,ok:boolean,gained:number,blocked:number,lost:number,enemyBonus:number}|null} */
   lastSegment=null;
+  /** @param {any[]} bank */
   constructor(bank=questions){ this.questions=bank;this.reset(); }
   setQuestions(bank){if(!['ready','result'].includes(this.phase))return false;if(!Array.isArray(bank)||bank.length<1||bank.length>6)throw Error('Invalid round');this.questions=bank;this.reset();return true;}
   get routeDistance(){return MARCH_DISTANCE*(this.questions.length+1);}
@@ -29,9 +30,12 @@ export class Game {
   get question(){ return this.questions[this.index]; }
   start(){ if(this.phase==='ready')this.phase='question'; }
   answer(option){
-    if(this.phase!=='question'||this.paused||!Number.isInteger(option)||option<0||option>3)return false;
-    this.selected=option; const q=this.question, ok=option===q.answer;
-    this.history.push({id:q.id,selected:option,correct:ok}); if(ok)this.correct++;
+    if(this.phase!=='question'||this.paused)return false;
+    const q=this.question,values=Array.isArray(option)?option:[option];
+    if(!values.length||new Set(values).size!==values.length||values.some(i=>!Number.isInteger(i)||i<0||i>=q.options.length)||Array.isArray(q.answer)!==Array.isArray(option))return false;
+    const selected=Array.isArray(option)?[...option].sort((a,b)=>a-b):option;
+    this.selected=selected;const expected=Array.isArray(q.answer)?q.answer:[q.answer],ok=values.length===expected.length&&values.every(i=>expected.includes(i));
+    this.history.push({id:q.id,selected,correct:ok}); if(ok)this.correct++;
     this.summary={ok,gained:0,blocked:0,lost:0,enemyBonus:ok?0:10};
     this.startMarch(); return true;
   }

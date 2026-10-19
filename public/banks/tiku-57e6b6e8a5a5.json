@@ -1,0 +1,560 @@
+{
+  "id": "tiku-57e6b6e8a5a5",
+  "name": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版)",
+  "subject": "期货基础知识",
+  "year": "2020",
+  "sourceFile": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+  "sourceHash": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+  "pages": 8,
+  "count": 25,
+  "types": {
+    "single": 6,
+    "multiple": 9,
+    "boolean": 10
+  },
+  "status": "ready",
+  "skipped": {
+    "跨题或页眉残留待校对": 4
+  },
+  "aiProcessed": 0,
+  "questions": [
+    {
+      "id": "tiku-57e6b6e8a5a5-q-1",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "下列关于期货套利的说法，正确的是()。",
+      "options": [
+        "利用期货市场和现货市场价差进行的套利称为价差交易",
+        "套利是与投机不同的交易方式",
+        "套利交易中关注的是合约的绝对价格水平",
+        "套利者在一段时间内只做买或卖"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 1,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-2",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "若某投资者11月份以300点的权利金卖出1份执行价格为14000点的12月份恒指看涨期权;同时，又以200点的权利金卖出1份执行价格为14000点的12月份恒指看跌期权。则该投资者的最大收益是()点。",
+      "options": [
+        "300",
+        "100",
+        "500",
+        "150"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 2,
+        "page": 1,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-3",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "关于期货交易与现货交易的联系，下列描述错误的是()。",
+      "options": [
+        "现货交易是以期货交易为基础的",
+        "期货交易是以现货交易为基础的",
+        "没有期货交易，现货交易的价格波动风险难以回避",
+        "没有现货交易，期货交易就没有了产生的根基"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 5,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-4",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "当期权为()时，期权的时间价值最大。",
+      "options": [
+        "极度实值期权",
+        "极度虚值期权",
+        "平值期权",
+        "实值期权"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 6,
+        "page": 2,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-5",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "期货合约的交割月份由()规定，期货交易者可自由选择交易不同交割月份的期货合约。",
+      "options": [
+        "期货交易所",
+        "交割仓库",
+        "中国证监会",
+        "国务院期货监督管理机构"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 8,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-6",
+      "type": "single",
+      "topic": "期货基础知识",
+      "prompt": "某投机者预测6月份大豆期货合约会下跌，于是他以2565元/吨的价格卖出3手(10吨/手)6月份大豆期货合约。此后合约价格下跌到2530元/吨，他又以此价格卖出2手6月大豆期货合约。之后价格继续下跌至2500元/吨，他再以此价格卖出1手6月大豆期货合约。若后来价格上涨到了2545元/吨，该投机者将头寸全部平仓，则该笔投资的盈亏状况为()。",
+      "options": [
+        "亏损150元",
+        "盈利150元",
+        "亏损50元",
+        "盈利50元"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 9,
+        "page": 3,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-7",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "期货品种按其标的物的不同可分为()。",
+      "options": [
+        "黄金期货",
+        "商品期货",
+        "金融期货",
+        "其他期货新品种"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 1,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-8",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "下列农产品期货的标的物是经济作物的有()。",
+      "options": [
+        "玉米",
+        "棉花",
+        "大豆",
+        "白糖"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 2,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-9",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "关于沪深300指数，说法正确的有()。",
+      "options": [
+        "沪深300指数为成分指数",
+        "股票数目不会变化，永远是300只",
+        "成分股名单每一年定期调整一次",
+        "手续费标准为成交金额的万分之零点五"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 3,
+        "page": 4,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-10",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "根据确定具体时点的实际交易价格的权利归属划分，点价交易可分为()。",
+      "options": [
+        "生产商交易",
+        "卖方叫价交易",
+        "买方叫价交易",
+        "销售商交易"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 4,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-11",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "以下属于有色金属的是()。",
+      "options": [
+        "铬",
+        "金",
+        "锰",
+        "铜"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 5,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-12",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "下面对反向大豆提油套利做法正确的是()。",
+      "options": [
+        "买入大豆期货合约，同时卖出豆油和豆粕期货合约",
+        "卖出大豆期货合约，同时买入豆油和豆粕期货合约",
+        "增加豆粕和豆油供给量",
+        "减少豆粕和豆油供给量"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 6,
+        "page": 5,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-13",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "现代期货市场确立的标志是()。",
+      "options": [
+        "标准化合约",
+        "保证金制度",
+        "对冲机制",
+        "统一结算的实施"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 8,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-14",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "关于套利指令，说法正确的有()。",
+      "options": [
+        "包括限价指令和市价指令",
+        "包括限时指令和双向指令",
+        "是指同时买入和卖出两种或两种以上期货合约的指令",
+        "包括跨商品(品种)套利指令、跨期套利指令和跨市场套利指令等"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 9,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-15",
+      "type": "multiple",
+      "topic": "期货基础知识",
+      "prompt": "中国期货业协会的宗旨包括维护会员的合法权益，维护期货市场的()原则。",
+      "options": [
+        "公开",
+        "公平",
+        "公正",
+        "平等"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 10,
+        "page": 6,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-16",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "头肩顶成立的预兆之一是：在头部形成过程中，当价格冲到新高点时交易量较大，而在随后的向颈线下跌时交易量应该较小。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 1,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-17",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "期货居间人从事投资咨询、代理交易等期货交易活动。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 2,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-18",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "中国金融期货交易所的非结算会员通过结算会员进行结算。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 3,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-19",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "沪深300指数期货合约中，合约价值“300元×沪深300指数”，其中300元是指沪深300指数期货的合约乘数。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 4,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-20",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "执行价格是指期权的买卖双方敲定的期货期权合约的价格。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 5,
+        "page": 7,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-21",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "在K线理论中，如果开盘价高于收盘价，则实体为阳线。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 6,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-22",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "在外汇掉期交易中，如果发起方近端买入、远端卖出，则近端掉期全价=即期汇率的做市商卖价-近端掉期点的做市商卖价。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 7,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-23",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "看跌期权的损益平衡点为：标的物的市场价格=执行价格-权利金。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 8,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-24",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "套期保值交易头寸实行审批制，其持仓不受限制。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 9,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    },
+    {
+      "id": "tiku-57e6b6e8a5a5-q-25",
+      "type": "boolean",
+      "topic": "期货基础知识",
+      "prompt": "近年来，世界上许多大型的证券期货交易所都由会员制改为公司制，公司化已经成为全球证券期货交易所的发展趋势。()",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "source": {
+        "file": "2020年11月期货从业资格《基础知识》考试真题及答案(网友版).pdf",
+        "sha256": "6a44c5540d5b581ae9398b4ca5b91f68fc71f8df28eb5c5a029078ffa27d3ba3",
+        "number": 10,
+        "page": 8,
+        "answerOrigin": "inline_answer"
+      }
+    }
+  ]
+}
