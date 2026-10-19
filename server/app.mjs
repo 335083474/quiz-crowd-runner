@@ -30,6 +30,7 @@ export function createAIHandler(config,{infer=createMiniMaxProvider(config),now=
     const selected=Array.isArray(body.selected)?body.selected:[body.selected];
     const validSelected=selected.length&&selected.every(i=>Number.isInteger(i)&&i>=0&&i<q.options.length);
     system+=' Prefer a familiar concrete instance of the same concept over a loose metaphor. Preserve ownership, obligations and money flows. Do not invent permissions that everyday businesses supposedly have over deposits or client funds. If using an analogy, make its assumed agreement explicit. For a source-dated law question, start the plain explanation with “按这份历史试题的规则” (or its English equivalent), and do not present the source rule as a verified current law.';
+    system+=' The everyday example must be explicitly hypothetical (start with “假设” or “Imagine”). For client-money ownership or permitted-use questions, use this simple fictional setup: a friend keeps your money in a separate envelope under an explicit agreement listing permitted uses. Map each use back to the question. Never use prepaid store cards, shop deposits or membership fees for this analogy, because their real ownership and spending rules differ. Do not invent real-world legal prohibitions for the example. The memory aid must preserve any important exception mentioned in the explanation.';
     prompt=JSON.stringify({question:q,answerKey:answerText(q),selected:validSelected?body.selected:null,selectedText:validSelected?answerText(q,body.selected):null});
    }
    active++;count++;daily++;
